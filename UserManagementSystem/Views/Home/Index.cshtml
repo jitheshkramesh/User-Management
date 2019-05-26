@@ -1,0 +1,22 @@
+﻿@{
+    ViewBag.Title = "Home Page";
+}
+
+<div class="jumbotron">
+    <h1>User Management System</h1>    
+</div>
+
+
+<div class="row">
+    <div class="col-md-6 margin-top-20">
+       
+        <a href="@Url.Action("AddUser","Home")" class="btn btn-primary btn-lg btn-block">
+            <span class="glyphicon glyphicon-user"></span>Add User
+        </a>
+    </div>
+    <div class="col-md-6 margin-top-20">
+        <a href="@Url.Action("UserList","Home")" class="btn btn-primary btn-lg btn-block">
+            <span class="glyphicon glyphicon-list"></span>User List
+        </a>
+    </div>
+</div>
